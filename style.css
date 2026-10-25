@@ -1,0 +1,56 @@
+*{font-family:Arial, Helvetica, sans-serif;
+  }
+
+  body{background-color:whitesmoke;
+       margin:20px;}
+
+  h2{color: black;
+     margin-bottom: 20px;}
+     
+     input[type="text"],
+     input[type="email"],
+     input[type="password"],
+     input[type="DOB"]{
+        width: 250px;
+        padding:5px;
+        border:1px solid black;
+        margin-bottom:14px;
+     }
+
+     table,input,label{
+        font-size:16px
+     }
+      
+     label{display:inline-block;
+           margin-bottom:10px;}
+
+     button{
+        background-color:#3498db;
+        border:none;
+        color:#ffff;
+        padding:8px 14px;
+        cursor:pointer;
+        margin-bottom:10px;
+     }
+
+     button:hover{
+        background-color:#2980b9;
+     }
+
+     input:focus{
+              border: 1px solid  #3498db;
+              outline:none;
+            }
+
+    table{border-collapse:collapse
+    }
+
+    th{background-color: #3498db;
+       color:white;}
+
+    tr:hover{
+        background-color: #eaf2f8;
+    }
+    td,th{
+        border:1px solid #ccc;
+    }
